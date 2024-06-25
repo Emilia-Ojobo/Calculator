@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    
+    width: 100%;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: rgb(14, 14, 31);
+    flex-direction: column;
+    font-size: 30px;
+    font-weight: 400; 
+    color: white;
+    padding: 20px;
+    justify-content: space-between; 
+   
+}
+.container .boxes{
+    background-color:rgba(24, 24, 68, 0.829);
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: row; this is flex row */
+    width: 400px;
+    height: 600px;
+    margin:25%;
+    margin-top: auto;
+    margin-left: 35%;
+    border: 0;  
+    justify-content: space-between;
+    
+   
+
+}
+
+.container .boxes .A{
+    width: 400px;
+    height: 100px;
+    color: black;
+    background-color: white;
+    padding: 0;
+    text-align: initial;
+    margin-top: auto;
+    margin: auto;
+    
+}
+.container .boxes .A .big{
+    padding-left: 5px;
+
+}
+/* Sets the text in each box to center */
+.container .boxes #size{
+    padding: 25px;
+    border-right: 0.5px;
+}
+
+
+
+.container .boxes .B{
+    width: 400px;
+    height: 100px;
+    flex-direction: row;
+    display: flex;
+    flex-wrap: nowrap;
+    margin-bottom: auto;
+
+    
+}
+.container .boxes .B .c{
+    background-color: red;
+    /* flex-grow: 2; */
+    width: 200px;
+     
+}
+.container .boxes .B .v{
+    width: 100px;
+    border-style: dotted;
+    border-width: 1px;
+    border-color:rgb(14, 14, 31);
+    border-right: 1px; 
+    
+
+   
+}
+.container .boxes .B .w{
+    width: 100px;
+    border-style: dotted;
+    border-width: 1px;
+    border-color:rgb(14, 14, 31);
+    border-right: 1px;
+}
+
+.container .boxes .C{
+    width: 400px;
+    height: 100px;
+    flex-direction: row;
+    display: flex;
+    flex-wrap: nowrap;
+    
+}
+
+.container .boxes .C .g{
+    border-style: dotted;
+    border-width: 1px;
+    border-color:rgb(14, 14, 31);
+    border-right: 2px;
+}
+.container .boxes .C .h{
+    border-width: 1px;
+    border-color:rgb(14, 14, 31); 
+    border-style: dotted;
+
+}
+.container .boxes .C .i{
+    border-style: dotted;
+    border-width: 1px;
+    border-color:rgb(14, 14, 31);
+
+}
+.container .boxes .C .x{
+    border-style: dotted;
+    border-width: 1px;
+    border-color:rgb(14, 14, 31);
+}
+
+
+.container .boxes .D{
+    width: 400px;
+    height: 100px;
+    flex-direction: row;
+    display: flex;
+   flex-wrap: nowrap;
+
+}.container .boxes .D .j{
+    border-style: dotted;
+    border-width: 1px;
+    border-color:rgb(14, 14, 31);
+    border-top: 1px;
+
+}
+.container .boxes .D .k{
+    border-style: dotted;
+    border-width: 1px;
+    border-color:rgb(14, 14, 31);
+    border-top: 1px;
+    border-left-width: 1px;
+} 
+.container .boxes .D .l{
+    border-style: dotted;
+    border-width: 1px;
+    border-color:rgb(14, 14, 31);
+    border-top: 1px;
+
+}
+.container .boxes .D .y{
+    /* border-style: dotted;
+    border-width: 1px;
+    border-color:rgb(14, 14, 31);
+    border-top: 1px; */
+
+}
+
+.container .boxes .E{
+    width: 400px;
+    height: 100px;
+    flex-direction: row;
+    display: flex;
+   flex-wrap: nowrap;
+}
+.container .boxes .E .m{
+    border-style: dotted;
+    border-width: 1px;
+    border-color:rgb(14, 14, 31);
+    border-bottom: 1px;
+
+}
+.container .boxes .E .n{
+    border-style: dotted;
+    border-width: 1px;
+    border-color:rgb(14, 14, 31);
+    border-bottom: 1px;
+}
+.container .boxes .E .o{
+    border-style: dotted;
+    border-width: 1px;
+    border-color:rgb(14, 14, 31);
+    text-align: initial;
+    padding-top: 0;
+    padding-bottom: 25%;
+
+}
+/* .container .boxes .E .yy{
+    background-color: blue;
+    border-left-width: 1px;
+    border-color:rgb(14, 14, 31);
+    margin-left: 2px solid black; 
+    text-align: calc(5px-97px);
+    
+    
+} */
+
+
+
+
+.container .boxes .F{
+    width: 400px;
+    height: 100px;
+    flex-direction: row;
+    display: flex;
+
+}
+.container .boxes .F .p{
+    width: 100px;
+    border-style: dotted;
+    border-width: 1px;
+    border-color:rgb(14, 14, 31);
+}
+.container .boxes .F .q{
+    width: 100px;
+    border-style: dotted;
+    border-width: 1px;
+    border-color:rgb(14, 14, 31);
+}
+.container .boxes .F .z{
+    width: 100px;
+    background-color: rgb(238, 165, 7);
+    /* border-style: dotted;
+    border-width: 2px;
+    border-color:rgb(14, 14, 31); */
+
+}
+.container .boxes .F .yyy{
+    background-color: rgb(14, 14, 31);
+    width: 100px;
+
+
+}
